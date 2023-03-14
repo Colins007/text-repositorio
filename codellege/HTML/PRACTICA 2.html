@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 2</title>
+</head>
+<body>
+    <div>
+    <h2>CUESTIONARIO DE EVALUACION DE SERVICIOS</h2>
+    <br>
+    <fieldset>
+        <legend>Datos Generales</legend> 
+        <form action="evaluar">
+        <label for="clave">Clave de su area(comenzando con la A): </label>
+        <input type="text" id="clave">
+        <br>
+        <label for="nom">Nombre del tecnico evaluado: </label>
+        <input type="text" id="nom">
+        <br>
+        <label for="servicio">servicio a evaluar:</label>
+        <select name="servicio" id="servicio">
+            <option value="">resolucion de problemas sofware</option>
+            <option value="gef">gef</option>
+            <option value="sjd">sjd</option>
+            <option value="uudn">uudn</option>
+        </select>
+        <br>
+        <label for="fecha">Fecha en que se proporciono el servicio: </label>
+        <input type="datetime-local">
+        <br>
+    </fieldset>
+    <fieldset>
+        <legend>Satisfaccion</legend> 
+        <label for="servicio2">satisfaccion en el servicio:</label>
+        <select name="servicio" id="servicio">
+            <option value="">seleccione</option>
+            <option value="gef">buena</option>
+            <option value="sjd">mala</option>
+            <option value="uudn">otro</option>
+        </select>
+        <br>
+        <label for="servicio">suproblema se resolvio:</label>
+        <select name="servicio" id="servicio">
+            <option value="">seleccione</option>
+            <option value="gef">si</option>
+            <option value="sjd">no</option>
+            <option value="uudn">talvez</option>
+        </select>
+        <br>
+        <label for="servicio">con que oportunidad se resolvio su problema:</label>
+        <select name="servicio" id="servicio">
+            <option value="">seleccione</option>
+            <option value="gef">jajaja</option>
+            <option value="sjd">jajaja</option>
+            <option value="uudn">jajaja</option>
+        </select>
+        <br>
+        <label for="coment">comentarios adicionales:</label>
+        <br>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+        <br>
+    </form>
+</fieldset>
+<input type="submit" value="enviar">
+</div>
+</body>
+</html>
