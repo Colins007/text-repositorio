@@ -1,0 +1,44 @@
+*{ /*selector universal*/
+    margin: 20px;
+}
+
+div { /*selector etiqueta*/
+    background: red;
+}
+
+h3{
+    background: rgb(85, 85, 213);
+}
+/*selector desendente*/
+div p{
+    color: white;
+}
+div p a{
+    color: blueviolet;
+}
+.contenedor {
+    background: #D6BDFD;
+}
+#parrafo{
+    font-size: 32px;
+}
+/*sectores avanzados
+son utilizados en formularios */
+input[type="submit"]:hover {
+    background: #000;
+}
+input[type="text"]{
+    background: #ccc;
+    text-decoration: underline;
+}
+/*selecciona el elemento que 
+esta directamente en la etiueta*/
+
+
+div>p{
+    font-size: 24px;
+}
+
+
+
+

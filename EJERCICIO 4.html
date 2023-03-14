@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="BD.php" method="">
+        <label for="comenzar">Presione para comenzar: </label>
+        <input type="submit" value="COMENZAR">
+        <br>
+        <label for="num">Numero de pasajero frecuente:  </label>
+        <input type="number" id="num">
+        <br>
+        <label for="nivel">Nivel: </label>
+        <input type="radio" name="clasico" value="clasico" id="clasico"><label for="clasico">Clasico</label>
+        <input type="radio" name="oro" value="oro" id="oro"><label for="oro">Oro</label>
+        <input type="radio" name="platino" value="platino" id="platino"><label for="platino">Platino</label>
+        <br>
+        <label for="nombre">Inserta un nombre: </label>
+        <input type="text" placeholder="usuario de prueba" id="nombre" required>
+        <br>
+        <label for="fecha">Fecha de Nacimiento: </label>
+        <input type="date" id="fecha">
+        <br>
+        <label for="tel">Telefono: </label>
+        <input type="tel" id="tel">
+        <br>
+        <label for="hora">Fecha de y hora del vuelo: </label>
+        <input type="datetime-local" id="hora">
+        <br>
+        <label for="pas">Numero de pasaporte: </label>
+        <input type="text" id="pas">
+        <br>
+        <label for="pais">Fotografia del pasajero</label>
+        <input type="file" placeholder="ingresa un archivo">
+        <br>
+        <label for="ven">Mes del vencimiento del pasaporte: </label>
+        <input type="date" id="ven">
+        <br>
+        <label for="vuelo">Salida del vuelo: </label>
+        <input type="datetime-local" id="vuelo">
+        <br>
+        <label for="horade">Hora de abordaje: </label>
+        <input type="time" id="horade">
+        <br>
+        <label for="costo">Costo del boleto: </label>
+        <input type="number" id="costo">
+        <br>
+        <label for="peso">Peso del equipaje: </label>
+        <input type="range" min="100" max="1000">
+        <br>
+        <label for="color">Seleccione el color de la seccion a la que pertenece: </label>
+        <input type="color" id="color">
+      
+    </form>
+</body>
+</html>

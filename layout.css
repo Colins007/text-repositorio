@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.contenedor{
+    width: 1000px;
+    margin: 16px auto;
+    overflow: hidden;
+}
+body{
+    background: #4A465B;
+    font-weight: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+header{
+    background: rgb(255, 255, 255);
+}
+header nav{
+    width: 100%;
+    overflow: hidden;
+}
+header nav ul li {
+    float: left;
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding: 15px 20px;
+}
+header nav ul li a:hover{
+    background: black;
+    color: #fff;
+}
+.main{
+    width: 70%;
+    background: #fff;
+    float: left;
+}
+.main .imagen{
+    width: 100%;
+}
+.main .imagen img{
+    width: 100%;
+    vertical-align: top;
+}
+.main .publicacion{
+    padding: 45px;
+}
+.main .publicacion article h2{
+    margin-bottom: 20px;
+    color: #5D5D5D;
+}
+.main .publicacion article p{
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+aside{
+    width: 300px;
+    background: #161f26;
+    padding: 20px;
+    color: #fff;
+    float: left;
+}
+aside .widget {
+    margin-bottom: 20px;
+}
+
+aside .widget .titulo {
+    color: rgb(255, 170, 0);
+    border-bottom: 2px solid rgb(255, 119, 0);
+    margin-bottom: 15px;
+}
+
+aside .widget ul {
+    list-style: none;
+}
+
+aside .widget ul li {
+    border-bottom: 2px solid rgb(255, 255, 255, 255);
+    padding: 12px 0;
+}
+
+aside .widget ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+aside .widget ul li a:hover {
+    color: rgb(91, 98, 98);
+}
+
+aside .widget p {
+    line-height: 25px;
+}
+footer{
+    width: 70%;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    overflow: hidden;
+}
+@media (max-width:750px) {
+    body{
+        background: #000;
+    }
+    header nav ul li{
+        float: right;
+    }
+    .main .publicacion article h2{
+        color: aliceblue;
+        border-color: 1px solid #fff;
+    }
+    .main{
+        width: 100%;
+        background: #161f26;
+        color: #fff;
+    }
+    aside{
+        width: 100%;
+    }
+}

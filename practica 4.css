@@ -1,0 +1,21 @@
+body{
+    font-size: 13px;
+    text-align: justify;
+    margin: 10px;
+    background-color: rgb(38, 224, 224);
+}
+
+.y{
+    background: rgb(202, 49, 49);
+    border: 2px 2px solid black;
+    width: 1000px;
+}
+
+.p{
+    background-color: rgb(0, 177, 118);
+    display: inline-block;
+}
+.cont {
+    border: 2px solid black;
+    padding: 10px;
+}

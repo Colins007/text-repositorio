@@ -1,0 +1,13 @@
+div{
+    background: rgb(180, 25, 194);
+}
+.email{
+    transition-timing-function: linear;
+}
+span{
+    visibility: hidden;
+}
+input:hover + span{
+    transform: translate(25% 50%);
+    visibility: visible;
+}

@@ -1,0 +1,31 @@
+div {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    transition: 4s;
+    margin-top: 10px;
+}
+
+.div1 {
+    transition-timing-function: linear;
+    background: rgb(0, 0, 0);
+
+}
+.div2 {
+    transition-timing-function: ease;/*inicio lento termina rapido la trancicion*/
+    background: purple;
+}
+.div3 {
+    transition-timing-function: ease-in;/*inicia despacio luego rapido la trancicion*/
+    background: violet;
+}
+.div4 {
+    background: red;
+    transition: width 2s, heigth 2s, transform 4s;
+}
+
+div:hover {
+    width: 300px;
+    height: 300px;
+    transform: translate(25% 50%);
+}

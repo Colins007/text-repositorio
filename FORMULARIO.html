@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <!--tipo de inputs -->
+    <form action="BD.php" method="">
+        <input type="text" name="" id="">
+        <br>
+        <input type="number" min="8" max="10">
+        <br>
+        <input type="email">
+        <br>
+        <input type="password" placeholder="contraseña">
+        <br>
+        <input type="range" min="5" max="10">
+        <br>
+        <input type="color">
+        <br>
+        <input type="submit" value="ENVIAR">
+
+        <label for="nombre">Inserta un nombre: </label>
+        <input type="text" placeholder="insertar nombre" maxlength="20" id="nombre" required>
+        <br>
+        <input type="email" placeholder="Correo electronico">
+        <br>
+        <textarea name="mensaje" id="mensaje" placeholder="mensaje"></textarea>
+        <br>
+        <label for="pais">Pais</label>
+        <select name="pais" id="pais">
+            <option value="">----</option>
+            <option value="francia">Francia</option>
+            <option value="alemania">Alemania</option>
+            <option value="mexico">Mexico</option>
+        </select>
+        <br>
+        <input type="radio" name="hombre" value="hombre" id="hombre"><label for="hombre">Hombre</label>
+        <input type="radio" name="mujer" value="mujer" id="mujer"><label for="mujer">Mujer</label>
+        <input type="radio" name="otro" value="otro" id="otro"><label for="otro">Otro</label>
+        <br>
+        <input type="checkbox" name="terminos" id="terminos"><label for="terminos">Terminos y Condiciones</label>
+        <br>
+        <input type="checkbox" name="publicidad" id="publicidad"><label for="publicidad">Aceptas que te enviemos publicidad</label>
+        <br>
+        <input type="submit" value="ENVIAR">
+        <!--implementar un formulario consiste en varios pasos
+        1. Escribir la interface del usuario
+        2. implementar el procesamiento de lado del servidor
+        3. configurar la interface de usuario para comunicarse con el servidor
+
+
+        GET- para mandar los datos en privado
+        POST- consiste en datos "ocultos" (porque el cliente no los ve) enviados por un formulario cuyo método de envío es post.
+        iframe- permite incrustrar otra página HTML en la página actual.
+        -->
+        
+    </form>
+</body>
+</html>

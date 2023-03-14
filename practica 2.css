@@ -1,0 +1,27 @@
+.profundidad{
+    color: #fff;
+    text-shadow: 2px 2px 6px #000;
+}
+.card{
+    width: 1000px;
+    height: 500px;
+    box-shadow: 0 20px 12px 0 rgba(0, 0, 0, 0.2), 0 20px 30px 0 
+    rgba(0, 0, 0, 0.20);
+}
+.header{
+    color: #fff;
+    font-size: 35px;
+}
+.miguel{
+    left: auto;
+}
+.nombre{
+    background: green;
+}
+.fecha{
+    background: red;
+}
+p{
+    color: #000;
+    margin: 0 10px;
+}

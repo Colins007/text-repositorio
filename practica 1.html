@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<center>
+<h1>Ejemplo de APPLEt Java</h1>
+</center>
+
+<p>Un applet conforme a lo que encontramos en las paginas de oracle: "es una aplicacion hecha en 
+    java que se llama desde un documento <i>HTML</i> 
+    y se ejecuta dentro de un <u>navegador</u>". Es necesario recordar que el navegador debe tener 
+    instalado el plugin de la Maquina Virtual de Java(JVM)</i> </p>
+<p><i>Maquina virtual de Java:</i> Es el programa que se encarga de ejecuta el bytecode generado por el compilador de Java</p>
+<p>Para entender la forma en que se maneja los <b>aplets</b> vamos a ver un ejemplo que presenta el clasico <mark>Hola mundo</mark></p>
+<ul><br>
+    <ol>impor java.awt.Graphics;</ol>
+    <ol>impor javax.swing.JApplet;</ol>
+    <ol>public class HolaMundo extends JApplet {</ol>
+    <ol>public void paint(Graphics g) {</ol>
+    <ol>super.paint(g);</ol>
+    <ol>g.drawString("Hola mundo!!",10,20);</ol>
+    <ol>}</ol>
+    <ol>}</ol>
+</ul><br>
+
+<p>¡Como puede observarse la única variable que uiza ete applet es g que representa un objeto de la case <em>Graphics </em> 
+    sobre el cual vamos a dibujar la cadena de texto que resua de ejecutar el apple</p>
+
+<p>Para ejecutarlo es necesario mandarlo lamar desde una página HTML utilizando la etiqueta "applet" o la etiqueta "object". En el primer caso el archivo <em>class</em>  se declara en el atributo <em> code</em>,en el
+    segundo se declara un elemento <em>param</em>  donde sus atributos <em>name</em> será <em>code y value</em> será el nombre del applet Cabe mencionar que <b>en el segundo caso es necesario declarar otros elementos
+    param adicionales y en elemento object declarar algunos parámetros como <em> clossid, codebase y type.</em> </b> En ambos casos es necesario declarar el tamaño de la ventana del applet con los Parámetros <em>widlh y height</em> </p>
+    <br>
+    <p>La <b> salida del programa ser </b> Hola mundo!</p>
+    
+    <p>Todos sabemos que este es un ejemplo muy sencilo y lo habremos viso ya bastantes veces, probablemente cuando Dennis N-Rirchi lo escribió en lenguaje C, jamás imaginó que seíautlizado
+    como ejemplo inicial de tatos lenguajes de programación.</div>
+     </p>
+
+</body>
+</html>

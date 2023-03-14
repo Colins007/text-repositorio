@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+body {
+    font-size: 13px;
+    text-align: justify;
+}
+
+body#principal {
+    background-image: url(./1.1.jpg);
+    background-size: 200px, 200px;
+}
+
+div.centro {
+    padding-left: 10%;
+    padding-right: 20%;
+}
+
+div.izquierda {
+    padding-left: 90%;
+    position: fixed;
+}
+
+p#notaizquierda {
+    color: #000;
+    font-size: small;
+    padding: 10px;
+    border-style: ridge;
+    font-weight: bold;
+    background: lightsteelblue;
+    border-radius: 10px;
+}
+
+div.derecha {
+    padding-left: 80%;
+    position: fixed;
+}
+
+aside#nota1 {
+    padding: 5px;
+    background-color: rgb(225, 140, 0);
+}
+section.header{
+    background: #EB984E;
+    padding: 10px;
+}
+
+h1 {
+    font-size: large;
+    color: white;
+    background: rgb(164, 198, 235);
+    text-align: center;
+}
+h2 {
+    color: blue;
+    border-bottom-color: darkslateblue;
+    border-bottom-style: solid ;
+}
+h3 {
+    color: darkblue;
+}
+em.termino {
+    color: darkblue;
+}
+
+em.propiedad {
+    color: darkblue;
+    font-weight: bold;
+    font-style: normal;
+}
+
+em.valor {
+    color: red;
+    font-weight: bold;
+    font-style: normal;
+}
+
+aside#note2 {
+    padding: 5px;
+    background-color: lightblue;
+    border-color: blue;
+    border-style: solid;
+    border-width: thin;
+}
+
+p.normal:hover,
+p.inicial:hover,
+li.itemnivel1:hover,
+header:hover,
+aside:hover{
+    font-size: large;
+}
+
+p.inicial::first-letter {
+    font-size: large;
+    font-family: cursive;
+}
+
+p:hover,
+li:hover,
+header:hover {
+    background-color: white;
+}
